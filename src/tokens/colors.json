@@ -1,6 +1,41 @@
 {
   "props": [
     {
+      "name": "brand_dark_matter",
+      "value": "{!indigo_90}",
+      "category": "brand"
+    },
+    {
+      "name": "brand_titan_pink",
+      "value": "{!indigo_60}",
+      "category": "brand"
+    },
+    {
+      "name": "brand_planet_blue",
+      "value": "{!cyan_50}",
+      "category": "brand"
+    },
+    {
+      "name": "brand_green_earth",
+      "value": "{!green_50}",
+      "category": "brand"
+    },
+    {
+      "name": "color_primary",
+      "value": "{!cyan_50}",
+      "category": "accent"
+    },
+    {
+      "name": "color_secondary",
+      "value": "{!indigo_90}",
+      "category": "accent"
+    },
+    {
+      "name": "color_text_primary",
+      "value": "{!gray_100}",
+      "category": "text"
+    },
+    {
       "name": "utility_danger_default",
       "value": "{!red_50}",
       "category": "utility"
