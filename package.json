@@ -1,0 +1,34 @@
+{
+  "name": "@up42/constellation",
+  "version": "0.0.1",
+  "description": "Constellation is the UP42 Design System based on Vue Design System",
+  "main": "dist/system/system.js",
+  "scripts": {
+    "test": "npm-run-all theo unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/up42/constellation.git"
+  },
+  "keywords": [
+    "up42",
+    "design",
+    "system",
+    "constellation",
+    "tokens",
+    "design",
+    "tokens",
+    "ui",
+    "css",
+    "scss"
+  ],
+  "author": "Matteo Pescarin <matteo.pescarin@up42.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/up42/constellation/issues"
+  },
+  "homepage": "https://github.com/up42/constellation#readme",
+  "devDependencies": {
+    "theo": "^8.1.4"
+  }
+}
