@@ -3,7 +3,12 @@
   "version": "0.0.1",
   "description": "Constellation is the UP42 Design System based on Vue Design System",
   "main": "dist/system/system.js",
+  "files": [
+    "dist/system"
+  ],
   "scripts": {
+    "theo": "theo ./src/tokens/tokens.json --transform web --format map.scss,scss,raw.json,json --dest ./src/assets/tokens",
+    "theo:onchange": "onchange \"./src/tokens/*.json\" -- npm run theo",
     "test": "npm-run-all theo unit"
   },
   "repository": {
@@ -30,5 +35,19 @@
   "homepage": "https://github.com/up42/constellation#readme",
   "devDependencies": {
     "theo": "^8.1.4"
-  }
+  },
+  "engines": {
+    "node": ">= 8.6.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not Explorer > 0",
+    "IE 11",
+    "not ExplorerMobile > 0",
+    "not BlackBerry > 0",
+    "not OperaMini all",
+    "not OperaMobile > 0"
+  ]
 }
