@@ -32,7 +32,7 @@
     },
     {
       "name": "color_text_primary",
-      "value": "{!gray_100}",
+      "value": "rgb({!gray_100})",
       "category": "text"
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "name": "typography_font_default",
-      "value": "{!gray_100}",
+      "value": "rgb({!gray_100})",
       "category": "typography"
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "name": "ui_shadow_default",
-      "value": "{!gray_100}",
+      "value": "rgb({!gray_100})",
       "category": "ui"
     },
 
@@ -438,7 +438,7 @@
     },
     {
       "name": "color_gray_100",
-      "value": "{!gray_100}",
+      "value": "rgb({!gray_100})",
       "category": "gray"
     }
   ],
@@ -513,7 +513,7 @@
     "gray_70": "#575b61",
     "gray_80": "#3c3e42",
     "gray_90": "#222426",
-    "gray_100": "#121315"
+    "gray_100": "18, 19, 21"
   },
   "global": {
     "type": "color",
