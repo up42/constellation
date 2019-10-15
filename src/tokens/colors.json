@@ -1,22 +1,22 @@
 {
   "props": [
     {
-      "name": "brand_dark_matter",
+      "name": "color_brand_dark_matter",
       "value": "{!indigo_90}",
       "category": "brand"
     },
     {
-      "name": "brand_titan_pink",
+      "name": "color_brand_titan_pink",
       "value": "{!indigo_60}",
       "category": "brand"
     },
     {
-      "name": "brand_planet_blue",
+      "name": "color_brand_planet_blue",
       "value": "{!cyan_50}",
       "category": "brand"
     },
     {
-      "name": "brand_green_earth",
+      "name": "color_brand_green_earth",
       "value": "{!green_50}",
       "category": "brand"
     },
@@ -36,72 +36,72 @@
       "category": "text"
     },
     {
-      "name": "utility_danger_default",
+      "name": "color_utility_danger_default",
       "value": "{!red_50}",
       "category": "utility"
     },
     {
-      "name": "utility_success_default",
+      "name": "color_utility_success_default",
       "value": "{!green_30}",
       "category": "utility"
     },
     {
-      "name": "utility_info_default",
+      "name": "color_utility_info_default",
       "value": "{!indigo_90}",
       "category": "utility"
     },
     {
-      "name": "typography_font_default",
+      "name": "color_typography_font_default",
       "value": "rgb({!gray_100})",
       "category": "typography"
     },
     {
-      "name": "typography_font_light",
+      "name": "color_typography_font_light",
       "value": "{!gray_60}",
       "category": "typography"
     },
     {
-      "name": "typography_font_inverted",
+      "name": "color_typography_font_inverted",
       "value": "{!gray_0}",
       "category": "typography"
     },
     {
-      "name": "typography_link_default",
+      "name": "color_typography_link_default",
       "value": "{!cyan_50}",
       "category": "typography"
     },
     {
-      "name": "typography_link_visited",
+      "name": "color_typography_link_visited",
       "value": "{!cyan_60}",
       "category": "typography"
     },
     {
-      "name": "ui_active_default",
+      "name": "color_ui_active_default",
       "value": "{!cyan_50}",
       "category": "ui"
     },
     {
-      "name": "ui_background_default",
+      "name": "color_ui_background_default",
       "value": "{!gray_10}",
       "category": "ui"
     },
     {
-      "name": "ui_background_dark",
+      "name": "color_ui_background_dark",
       "value": "{!gray_20}",
       "category": "ui"
     },
     {
-      "name": "ui_background_darker",
+      "name": "color_ui_background_darker",
       "value": "{!indigo_90}",
       "category": "ui"
     },
     {
-      "name": "ui_border_default",
+      "name": "color_ui_border_default",
       "value": "{!gray_20}",
       "category": "ui"
     },
     {
-      "name": "ui_shadow_default",
+      "name": "color_ui_shadow_default",
       "value": "rgb({!gray_100})",
       "category": "ui"
     },
@@ -443,8 +443,8 @@
     }
   ],
   "aliases": {
-    "indigo_0": "#e9e9ee",
-    "indigo_10": "#d4d4de",
+    "indigo_0": "#F4F4F6",
+    "indigo_10": "#e9e9ee",
     "indigo_20": "#bdbfcd",
     "indigo_30": "#a8aabd",
     "indigo_40": "#9294ac",

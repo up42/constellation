@@ -1,25 +1,25 @@
 {
   "props": [
-    { "name": "spacing_marketing_main", "value": "{!scale_24}" },
-    { "name": "spacing_marketing_section", "value": "{!scale_120}" },
-    { "name": "spacing_marketing_header", "value": "{!scale_80}" },
-    { "name": "spacing_marketing_article", "value": "{!scale_64}" },
-    { "name": "spacing_marketing_paragraph", "value": "{!scale_24}" },
-    { "name": "spacing_marketing_line", "value": "{!scale_16}" },
+    { "name": "marketing_space_main", "value": "{!scale_24}" },
+    { "name": "marketing_space_section", "value": "{!scale_120}" },
+    { "name": "marketing_space_header", "value": "{!scale_80}" },
+    { "name": "marketing_space_article", "value": "{!scale_64}" },
+    { "name": "marketing_space_paragraph", "value": "{!scale_24}" },
+    { "name": "marketing_space_line", "value": "{!scale_16}" },
 
-    { "name": "spacing_product_main", "value": "{!scale_24}" },
-    { "name": "spacing_product_section", "value": "{!scale_32}" },
-    { "name": "spacing_product_header", "value": "{!scale_24}" },
-    { "name": "spacing_product_article", "value": "{!scale_24}" },
-    { "name": "spacing_product_paragraph", "value": "{!scale_16}" },
-    { "name": "spacing_product_line", "value": "{!scale_8}" },
+    { "name": "product_desktop_space_main", "value": "{!scale_24}" },
+    { "name": "product_desktop_space_section", "value": "{!scale_32}" },
+    { "name": "product_desktop_space_header", "value": "{!scale_24}" },
+    { "name": "product_desktop_space_article", "value": "{!scale_24}" },
+    { "name": "product_desktop_space_paragraph", "value": "{!scale_16}" },
+    { "name": "product_desktop_space_line", "value": "{!scale_8}" },
 
-    { "name": "spacing_mobile_main", "value": "{!scale_16}" },
-    { "name": "spacing_mobile_section", "value": "{!scale_64}" },
-    { "name": "spacing_mobile_header", "value": "{!scale_40}" },
-    { "name": "spacing_mobile_article", "value": "{!scale_24}" },
-    { "name": "spacing_mobile_paragraph", "value": "{!scale_24}" },
-    { "name": "spacing_mobile_line", "value": "{!scale_16}" }
+    { "name": "product_mobile_space_main", "value": "{!scale_16}" },
+    { "name": "product_mobile_space_section", "value": "{!scale_64}" },
+    { "name": "product_mobile_space_header", "value": "{!scale_40}" },
+    { "name": "product_mobile_space_article", "value": "{!scale_24}" },
+    { "name": "product_mobile_space_paragraph", "value": "{!scale_24}" },
+    { "name": "product_mobile_space_line", "value": "{!scale_16}" }
   ],
   "aliases": {
     "scale_1": "1px",
