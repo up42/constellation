@@ -1,19 +1,20 @@
-"use strict"
-const path = require("path")
-const utils = require("./utils")
-const config = require("../config")
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")
-const { VueLoaderPlugin } = require("vue-loader")
+"use strict";
+const path = require("path");
+const utils = require("./utils");
+const config = require("../config");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { VueLoaderPlugin } = require("vue-loader");
 
 function resolve(dir) {
-  return path.join(__dirname, "..", dir)
+  return path.join(__dirname, "..", dir);
 }
 
 module.exports = {
-  mode: process.env.NODE_ENV === "production" ? config.build.mode : config.dev.mode,
+  mode:
+    process.env.NODE_ENV === "production" ? config.build.mode : config.dev.mode,
   context: path.resolve(__dirname, "../"),
   entry: {
-    app: "./src/main.js",
+    app: "./src/main.js"
   },
   output: {
     path: config.build.assetsRoot,
@@ -21,14 +22,14 @@ module.exports = {
     publicPath:
       process.env.NODE_ENV === "production"
         ? config.build.assetsPublicPath
-        : config.dev.assetsPublicPath,
+        : config.dev.assetsPublicPath
   },
   resolve: {
     extensions: [".js", ".vue", ".json"],
     alias: {
       vue$: "vue/dist/vue.esm.js",
-      "@": resolve("src"),
-    },
+      "@": resolve("src")
+    }
   },
   module: {
     rules: [
@@ -41,9 +42,9 @@ module.exports = {
             video: ["src", "poster"],
             source: "src",
             img: "src",
-            image: "xlink:href",
-          },
-        },
+            image: "xlink:href"
+          }
+        }
       },
       {
         test: /\.js$/,
@@ -52,38 +53,38 @@ module.exports = {
           resolve("docs"),
           resolve("src"),
           resolve("test"),
-          resolve("node_modules/webpack-dev-server/client"),
-        ],
+          resolve("node_modules/webpack-dev-server/client")
+        ]
       },
       {
         test: /\.(png|jpe?g|gif)(\?.*)?$/,
         loader: "url-loader",
         options: {
           limit: 10000,
-          name: utils.assetsPath("img/[name].[hash:7].[ext]"),
-        },
+          name: utils.assetsPath("img/[name].[hash:7].[ext]")
+        }
       },
       {
         test: /\.svg$/,
-        loader: "html-loader",
+        loader: "html-loader"
       },
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         loader: "url-loader",
         options: {
           limit: 10000,
-          name: utils.assetsPath("media/[name].[hash:7].[ext]"),
-        },
+          name: utils.assetsPath("media/[name].[hash:7].[ext]")
+        }
       },
       {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: "url-loader",
         options: {
           limit: 10000,
-          name: utils.assetsPath("fonts/[name].[hash:7].[ext]"),
-        },
-      },
-    ],
+          name: utils.assetsPath("fonts/[name].[hash:7].[ext]")
+        }
+      }
+    ]
   },
   plugins: [new VueLoaderPlugin(), new MiniCssExtractPlugin("style.css")],
   node: {
@@ -96,6 +97,6 @@ module.exports = {
     fs: "empty",
     net: "empty",
     tls: "empty",
-    child_process: "empty",
-  },
-}
+    child_process: "empty"
+  }
+};
