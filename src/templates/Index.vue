@@ -7,12 +7,14 @@
         {name: 'Documentation', href: 'http://localhost:6060/'}
       ]"
     />
-    <Wrapper>
-      <Heading>Vue Design System</Heading>
-      <Paragraph>
-        <a href="https://vueds.com">Vue Design System</a>is an open-source tool for building design systems with Vue.js. It provides you and your team a set of organized tools, patterns &amp; practices. It works as the foundation for your application development.
-      </Paragraph>
-    </Wrapper>
+    <div>
+      <h1>Constellation Design System</h1>
+      <p>
+        <strong>Constellation</strong> is UP
+        <sup>42</sup> Design System, based on
+        <a href="https://vueds.com">Vue Design System</a>. Vue Design System is an open-source tool for building design systems with Vue.js. It provides you and your team a set of organized tools, patterns &amp; practices. It works as the foundation for your application development.
+      </p>
+    </div>
   </component>
 </template>
 
@@ -25,7 +27,7 @@ export default {
   status: "deprecated",
   release: "1.0.0",
   metaInfo: {
-    title: "Vue Design System",
+    title: "Constellation Design System",
     htmlAttrs: {
       lang: "en"
     }
