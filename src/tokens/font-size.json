@@ -2,154 +2,124 @@
   "props": [
     {
       "name": "marketing_desktop_font_size_headline_large",
-      "value": "{!ms_major_second_11}",
-      "category": "headline"
+      "value": "{!ms_major_second_11}"
     },
     {
       "name": "marketing_desktop_font_size_headline_default",
-      "value": "{!ms_major_second_9}",
-      "category": "headline"
+      "value": "{!ms_major_second_9}"
     },
     {
       "name": "marketing_desktop_font_size_heading_default",
-      "value": "{!ms_major_second_5}",
-      "category": "headline"
+      "value": "{!ms_major_second_5}"
     },
     {
       "name": "marketing_desktop_font_size_heading_medium",
-      "value": "{!ms_major_second_2}",
-      "category": "headline"
+      "value": "{!ms_major_second_2}"
     },
     {
       "name": "marketing_desktop_font_size_heading_small",
-      "value": "{!ms_major_second_1}",
-      "category": "headline"
+      "value": "{!ms_major_second_1}"
     },
     {
       "name": "marketing_desktop_font_size_heading_xsmall",
-      "value": "{!ms_major_second_-1}",
-      "category": "headline"
+      "value": "{!ms_major_second_-1}"
     },
     {
       "name": "marketing_desktop_font_size_caption_default",
-      "value": "{!ms_major_second_1}",
-      "category": "headline"
+      "value": "{!ms_major_second_1}"
     },
     {
       "name": "marketing_desktop_font_size_caption_small",
-      "value": "{!ms_major_second_-1}",
-      "category": "headline"
+      "value": "{!ms_major_second_-1}"
     },
     {
       "name": "marketing_desktop_font_size_heading_overline",
-      "value": "{!ms_major_second_-2}",
-      "category": "headline"
+      "value": "{!ms_major_second_-2}"
     },
     {
       "name": "marketing_desktop_font_size_body_large",
-      "value": "{!ms_major_second_3}",
-      "category": "headline"
+      "value": "{!ms_major_second_3}"
     },
     {
       "name": "marketing_desktop_font_size_body_default",
-      "value": "{!ms_major_second_0}",
-      "category": "headline"
+      "value": "{!ms_major_second_0}"
     },
     {
       "name": "marketing_desktop_font_size_body_small",
-      "value": "{!ms_major_second_-1}",
-      "category": "headline"
+      "value": "{!ms_major_second_-1}"
     },
     {
       "name": "marketing_desktop_font_size_label_default",
-      "value": "{!ms_major_second_0}",
-      "category": "headline"
+      "value": "{!ms_major_second_0}"
     },
     {
       "name": "marketing_desktop_font_size_label_small",
-      "value": "{!ms_major_second_-2}",
-      "category": "headline"
+      "value": "{!ms_major_second_-2}"
     },
     {
       "name": "marketing_desktop_font_size_code_default",
-      "value": "{!ms_major_second_-2}",
-      "category": "headline"
+      "value": "{!ms_major_second_-2}"
     },
 
     {
       "name": "marketing_mobile_font_size_headline_large",
-      "value": "{!ms_major_second_7}",
-      "category": "headline"
+      "value": "{!ms_major_second_7}"
     },
     {
       "name": "marketing_mobile_font_size_headline_default",
-      "value": "{!ms_major_second_5}",
-      "category": "headline"
+      "value": "{!ms_major_second_5}"
     },
     {
       "name": "marketing_mobile_font_size_heading_default",
-      "value": "{!ms_major_second_3}",
-      "category": "headline"
+      "value": "{!ms_major_second_3}"
     },
     {
       "name": "marketing_mobile_font_size_heading_medium",
-      "value": "{!ms_major_second_1}",
-      "category": "headline"
+      "value": "{!ms_major_second_1}"
     },
     {
       "name": "marketing_mobile_font_size_heading_small",
-      "value": "{!ms_major_second_0}",
-      "category": "headline"
+      "value": "{!ms_major_second_0}"
     },
     {
       "name": "marketing_mobile_font_size_heading_xsmall",
-      "value": "{!ms_major_second_-1}",
-      "category": "headline"
+      "value": "{!ms_major_second_-1}"
     },
     {
       "name": "marketing_mobile_font_size_caption_default",
-      "value": "{!ms_major_second_0}",
-      "category": "headline"
+      "value": "{!ms_major_second_0}"
     },
     {
       "name": "marketing_mobile_font_size_caption_small",
-      "value": "{!ms_major_second_-2}",
-      "category": "headline"
+      "value": "{!ms_major_second_-2}"
     },
     {
       "name": "marketing_mobile_font_size_heading_overline",
-      "value": "{!ms_major_second_-2}",
-      "category": "headline"
+      "value": "{!ms_major_second_-2}"
     },
     {
       "name": "marketing_mobile_font_size_body_large",
-      "value": "{!ms_major_second_3}",
-      "category": "headline"
+      "value": "{!ms_major_second_3}"
     },
     {
       "name": "marketing_mobile_font_size_body_default",
-      "value": "{!ms_major_second_-1}",
-      "category": "headline"
+      "value": "{!ms_major_second_-1}"
     },
     {
       "name": "marketing_mobile_font_size_body_small",
-      "value": "{!ms_major_second_-2}",
-      "category": "headline"
+      "value": "{!ms_major_second_-2}"
     },
     {
       "name": "marketing_mobile_font_size_label_default",
-      "value": "{!ms_major_second_-1}",
-      "category": "headline"
+      "value": "{!ms_major_second_-1}"
     },
     {
       "name": "marketing_mobile_font_size_label_small",
-      "value": "{!ms_major_second_-2}",
-      "category": "headline"
+      "value": "{!ms_major_second_-2}"
     },
     {
       "name": "marketing_mobile_font_size_code_default",
-      "value": "{!ms_major_second_-2}",
-      "category": "headline"
+      "value": "{!ms_major_second_-2}"
     }
   ],
   "aliases": {
@@ -191,6 +161,6 @@
   },
   "global": {
     "type": "number",
-    "category": "font_size"
+    "category": "font-size"
   }
 }

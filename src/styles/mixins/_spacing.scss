@@ -1,0 +1,17 @@
+@mixin stack-space($value) {
+  margin-bottom: $value;
+
+  &:first-child {
+    margin-bottom: 0;
+  }
+}
+
+// Create inset-squish-space
+// Used for buttons, form elements, cells.
+//
+// @param  {Number} inset-squish-space to set
+@mixin inset-squish-space($value) {
+  $spacing-ratio: 1.7;
+  padding: round($value / $spacing-ratio - 1px) $value
+    round($value / $spacing-ratio);
+}
