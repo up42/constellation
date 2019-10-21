@@ -1,3 +1,11 @@
 @import "../styles/reset";
 
+// mixins
 @import "../styles/mixins/spacing";
+@import "../styles/mixins/fonts";
+
+// marketing-app definitions
+@import "../styles/marketing-app/base";
+@import "../styles/marketing-app/headings";
+@import "../styles/marketing-app/caption";
+@import "../styles/marketing-app/label";

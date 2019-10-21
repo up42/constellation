@@ -1,0 +1,35 @@
+h1,
+.headline-large {
+  @include headline-large;
+}
+
+h2,
+.headline,
+.headline-default {
+  @include headline-default;
+}
+
+h3,
+.heading,
+.heading-default {
+  @include heading-default;
+}
+
+h4,
+.heading-medium {
+  @include heading-medium;
+}
+
+h5,
+.heading-small {
+  @include heading-small;
+}
+
+h6,
+.heading-xsmall {
+  @include heading-xsmall;
+}
+
+.heading-overline {
+  @include heading-overline;
+}
