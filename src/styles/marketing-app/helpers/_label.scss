@@ -1,0 +1,7 @@
+.label {
+  @include label-default;
+
+  &-small {
+    @include label-small;
+  }
+}

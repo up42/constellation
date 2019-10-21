@@ -1,16 +1,47 @@
 body {
   font-family: $marketing-font-family;
+  background-color: $color-ui-background-default;
+  color: $color-typography-font-default;
 }
 
-body,
-.body-default {
+body {
   @include body-default;
 }
 
-.body-small {
-  @include body-small;
+h1 {
+  @include headline-large;
 }
 
-.body-large {
-  @include body-large;
+h2 {
+  @include headline-default;
+}
+
+h3 {
+  @include heading-default;
+}
+
+h4 {
+  @include heading-medium;
+}
+
+h5 {
+  @include heading-small;
+}
+
+h6 {
+  @include heading-xsmall;
+}
+
+code,
+pre {
+  @include code-default;
+}
+
+label {
+  @include label-default;
+}
+
+caption,
+figcaption {
+  @include caption-default;
 }

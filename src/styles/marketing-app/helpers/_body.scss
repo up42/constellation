@@ -1,0 +1,11 @@
+.body {
+  @include body-default;
+
+  &-small {
+    @include body-small;
+  }
+
+  &-large {
+    @include body-large;
+  }
+}
