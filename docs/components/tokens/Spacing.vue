@@ -15,7 +15,6 @@
 <script>
 import designTokens from "@/assets/tokens/tokens.raw.json";
 import { filterByCategory } from "../../utils/tokenFilter";
-import orderBy from "lodash/orderBy";
 
 /**
  * These tokens are used for padding, margins, and position.
@@ -24,15 +23,9 @@ import orderBy from "lodash/orderBy";
  */
 export default {
   name: "Spacing",
-  methods: {
-    orderData: function(data) {
-      let order = orderBy(data, "category", "asc");
-      return order;
-    }
-  },
   data() {
     return {
-      tokens: this.orderData(filterByCategory(designTokens.props, "space"))
+      tokens: filterByCategory(designTokens.props, "space")
     };
   }
 };
