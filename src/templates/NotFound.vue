@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style lang="scss" module>
+<style lang="scss" scoped>
 // Design Tokens with local scope
 $color-template-background: $color-ui-background-darker;
 $color-template-background-top: tint($color-ui-background-darker, 5%);

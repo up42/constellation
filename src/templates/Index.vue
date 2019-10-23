@@ -1,12 +1,12 @@
 <template>
   <component :is="type" class="index">
-    <NavBar
+    <!--NavBar
       active="Index"
       :navItems="[
         {name: 'Template', component: 'Index', href: '/#/'},
         {name: 'Documentation', href: 'http://localhost:6060/'}
       ]"
-    />
+    /-->
     <div>
       <h1>Constellation Design System</h1>
       <p>
@@ -44,11 +44,11 @@ export default {
 };
 </script>
 
-<style lang="scss" module>
+<style lang="scss" scoped>
 // Design Tokens with local scope
-$color-template-background: $color-ui-background-darker;
-$color-template-background-top: tint($color-ui-background-darker, 5%);
-$color-template-background-bottom: shade($color-ui-background-darker, 5%);
+$color-template-background: $color-ui-background-dark;
+$color-template-background-top: tint($color-ui-background-dark, 5%);
+$color-template-background-bottom: shade($color-ui-background-dark, 5%);
 $color-template-text: $color-typography-font-inverted;
 $color-template-link: $color-brand-titan-pink;
 
@@ -66,9 +66,9 @@ $color-template-link: $color-brand-titan-pink;
   float: left;
   height: 100%;
   width: 100%;
-  // @media #{$media-query-l} {
-  // This is how you’d use design tokens with media queries
-  // }
+  @media #{$media-query-l} {
+    // This is how you’d use design tokens with media queries
+  }
   .heading {
     color: $color-template-text;
   }
@@ -88,7 +88,6 @@ $color-template-link: $color-brand-titan-pink;
     top: 50%;
   }
   a {
-    font-family: $product-font-family-text;
     color: $color-template-link;
     text-decoration: underline;
   }

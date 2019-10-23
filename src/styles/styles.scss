@@ -1,18 +1,4 @@
 @import "../styles/reset";
 
 // mixins
-@import "../styles/mixins/fonts";
 @import "../styles/mixins/spacing";
-
-// marketing-app
-
-// base definitions
-@import "../styles/marketing-app/base";
-@import "../styles/marketing-app/text-inline";
-
-// helper classes
-@import "../styles/marketing-app/helpers/body";
-@import "../styles/marketing-app/helpers/caption";
-@import "../styles/marketing-app/helpers/code";
-@import "../styles/marketing-app/helpers/headings";
-@import "../styles/marketing-app/helpers/label";

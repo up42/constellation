@@ -1,11 +1,15 @@
-body {
-  font-family: $marketing-font-family;
-  background-color: $color-ui-background-default;
-  color: $color-typography-font-default;
+html {
+  font-family: $marketing-font-family-fallback;
+
+  @supports (font-variation-settings: normal) {
+    font-family: $marketing-font-family-default;
+  }
 }
 
 body {
   @include body-default;
+  background-color: $color-ui-background-default;
+  color: $color-typography-font-default;
 }
 
 h1 {

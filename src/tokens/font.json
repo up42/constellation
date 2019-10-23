@@ -6,8 +6,11 @@
     "product_font_family_text": {
       "value": "'Source Sans Pro', sans-serif"
     },
-    "marketing_font_family": {
+    "marketing_font_family_default": {
       "value": "'Inter var', sans-serif"
+    },
+    "marketing_font_family_fallback": {
+      "value": "'Inter', sans-serif"
     },
     "font_family_code": {
       "value": "'Source Code Pro', monospace"

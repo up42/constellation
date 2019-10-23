@@ -1,7 +1,7 @@
 @mixin headline-large {
   font-size: $marketing-mobile-font-size-headline-large;
   line-height: $marketing-line-height-3;
-  font-weight: bold;
+  font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-headline-large;
@@ -12,7 +12,7 @@
 @mixin headline-default {
   font-size: $marketing-mobile-font-size-headline-default;
   line-height: $marketing-line-height-5;
-  font-weight: bold;
+  font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-headline-default;
@@ -23,7 +23,7 @@
 @mixin heading-default {
   font-size: $marketing-mobile-font-size-heading-default;
   line-height: $marketing-line-height-6;
-  font-weight: bold;
+  font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-heading-default;
@@ -34,7 +34,7 @@
 @mixin heading-medium {
   font-size: $marketing-mobile-font-size-heading-medium;
   line-height: $marketing-line-height-4;
-  font-weight: bold;
+  font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-mobile-font-size-heading-medium;
@@ -45,7 +45,7 @@
 @mixin heading-small {
   font-size: $marketing-mobile-font-size-heading-small;
   line-height: $marketing-line-height-7;
-  font-weight: bold;
+  font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-heading-small;
@@ -56,7 +56,7 @@
 @mixin heading-xsmall {
   font-size: $marketing-mobile-font-size-heading-default;
   line-height: $marketing-line-height-9;
-  font-weight: bold;
+  font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-heading-default;
@@ -66,7 +66,7 @@
 @mixin caption-default {
   font-size: $marketing-mobile-font-size-caption-default;
   line-height: $marketing-line-height-7;
-  font-weight: normal;
+  font-weight: 400;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-caption-default;
@@ -77,7 +77,7 @@
 @mixin caption-small {
   font-size: $marketing-mobile-font-size-caption-small;
   line-height: $marketing-line-height-13;
-  font-weight: normal;
+  font-weight: 400;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-caption-small;
@@ -88,7 +88,7 @@
 @mixin heading-overline {
   font-size: $marketing-mobile-font-size-heading-overline;
   line-height: $marketing-line-height-2;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: capitalize;
 
   @media #{$media-query-m} {
@@ -99,13 +99,13 @@
 @mixin body-large {
   font-size: $marketing-mobile-font-size-body-large;
   line-height: $marketing-line-height-10;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @mixin body-default {
   font-size: $marketing-mobile-font-size-body-default;
   line-height: $marketing-line-height-12;
-  font-weight: normal;
+  font-weight: 400;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-body-default;
@@ -116,7 +116,7 @@
 @mixin body-small {
   font-size: $marketing-mobile-font-size-body-small;
   line-height: $marketing-line-height-13;
-  font-weight: normal;
+  font-weight: 400;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-body-small;
@@ -127,7 +127,7 @@
 @mixin label-default {
   font-size: $marketing-mobile-font-size-label-default;
   line-height: $marketing-line-height-9;
-  font-weight: bold;
+  font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-label-default;
@@ -138,12 +138,12 @@
 @mixin label-small {
   font-size: $marketing-mobile-font-size-label-small;
   line-height: $marketing-line-height-2;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @mixin code-default {
   font-family: $font-family-code;
   font-size: $marketing-mobile-font-size-code-default;
   line-height: $marketing-line-height-2;
-  font-weight: normal;
+  font-weight: 400;
 }
