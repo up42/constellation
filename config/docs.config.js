@@ -65,13 +65,20 @@ module.exports = {
     //   exampleMode: "hide",
     //   usageMode: "hide"
     // },
-    // {
-    //   name: "Voice & Tone",
-    //   content: "../docs/voice-and-tone.md",
-    //   sectionDepth: 1,
-    //   exampleMode: "hide",
-    //   usageMode: "hide"
-    // },
+    {
+      name: "Brand Guidelines",
+      content: "../docs/brand-guidelines.md",
+      sectionDepth: 1,
+      exampleMode: "hide",
+      usageMode: "hide"
+    },
+    {
+      name: "Voice & Tone",
+      content: "../docs/voice-and-tone.md",
+      sectionDepth: 1,
+      exampleMode: "hide",
+      usageMode: "hide"
+    },
     {
       name: "Design Tokens",
       content: "../docs/tokens.md",
