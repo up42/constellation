@@ -16,7 +16,7 @@
 
 <script lang="ts">
 export default {
-  name: "VueLoader",
+  name: "UpLoader",
   props: {
     medium: {
       type: Boolean,
@@ -80,7 +80,6 @@ export default {
 </script>
 
 <style lang="scss" module>
-// @import "~@/app/shared/designSystem";
 $loader-size: $space-scale-32;
 $loader-medium-size: $space-scale-64;
 $loader-large-size: $space-scale-120;

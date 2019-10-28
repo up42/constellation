@@ -277,7 +277,7 @@ div[class^="rsg--sidebar"] {
 
   // Sidebar sub navigations
   ul ul[class^="rsg--list"] {
-    display: none;
+    // display: none;
     &.vueds-visible {
       display: block;
     }

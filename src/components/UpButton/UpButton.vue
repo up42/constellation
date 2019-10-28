@@ -23,17 +23,17 @@
       <slot name="icon" />
     </span>
     <slot v-if="loading === false" />
-    <vue-loader :class="$style.loader" v-if="loading === true" />
+    <up-loader :class="$style.loader" v-if="loading === true" />
   </component>
 </template>
 
 <script lang="ts">
-import VueLoader from "./VueLoader.vue";
+import UpLoader from "../UpLoader/UpLoader.vue";
 
 export default {
   name: "UpButton",
   components: {
-    VueLoader
+    UpLoader
   },
   props: {
     as: {
@@ -68,16 +68,14 @@ export default {
 </script>
 
 <style lang="scss" module>
-// @import "~@/app/shared/designSystem";
-
 .upButton,
 a.upButton {
+  @include label-default;
   padding: $space-scale-8 $space-scale-16;
   border: none;
   background: $color-ui-active-default;
   border-radius: $radius-default;
   color: $color-typography-font-inverted;
-  @include label-default;
   cursor: pointer;
   text-decoration: none;
   &:hover {
@@ -95,13 +93,13 @@ a.upButton {
 }
 
 .upButton.small {
+  @include label-small;
   padding: $space-scale-4 $space-scale-8;
   border-radius: $radius-small;
 }
 
 .upButton.large {
   padding: $space-scale-16 $space-scale-32;
-  @include label-default;
   .loader {
     width: $space-scale-24 - $space-scale-4;
     height: $space-scale-24 - $space-scale-4;
