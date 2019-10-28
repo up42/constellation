@@ -7,8 +7,8 @@
     "dist/system"
   ],
   "scripts": {
-    "dev": "webpack-dev-server --inline --config ./build/webpack.dev.conf.js",
-    "start": "npm-run-all --parallel theo:onchange styleguide theo dev",
+    "dev:app": "webpack-dev-server --inline --config ./build/webpack.dev.conf.js",
+    "dev": "npm-run-all --parallel theo:onchange styleguide theo dev:app",
     "build": "npm-run-all theo node:build",
     "build:app": "npm run build",
     "build:system": "npm-run-all theo node:build:system",
