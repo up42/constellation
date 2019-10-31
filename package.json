@@ -9,7 +9,7 @@
   "scripts": {
     "dev:app": "webpack-dev-server --inline --config ./build/webpack.dev.conf.js",
     "dev": "npm-run-all --parallel theo:onchange styleguide theo",
-    "build": "npm-run-all theo node:build",
+    "build": "npm-run-all theo",
     "build:app": "npm run build",
     "build:system": "npm-run-all theo node:build:system",
     "build:docs": "npm-run-all theo styleguide:build",

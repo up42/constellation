@@ -17,6 +17,7 @@ module.exports = {
   },
   require: [
     path.resolve(__dirname, "docs/docs.styles.scss"),
+    path.resolve(__dirname, "src/styles/marketing-app/_base.scss"),
     path.resolve(__dirname, "src/utils/webFontLoader.js")
   ],
   pagePerSection: true,
