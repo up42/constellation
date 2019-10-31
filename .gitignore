@@ -20,4 +20,4 @@ yarn-error.log*
 *.sln
 
 # Ignore compiled tokens
-src/assets/tokens/
+# src/assets/tokens/

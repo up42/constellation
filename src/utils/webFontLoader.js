@@ -7,7 +7,6 @@ import WebFont from "webfontloader";
 WebFont.load({
   google: {
     families: [
-      "Fira+Sans:300,400,400i,600,700",
       "Source+Code+Pro:400",
       "Source+Sans+Pro:400,400i,700",
       "Roboto+Condensed:700"

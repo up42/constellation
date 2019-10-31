@@ -12,6 +12,12 @@ body {
   color: $color-typography-font-default;
 }
 
+ul {
+  li + li {
+    margin-top: $marketing-space-paragraph;
+  }
+}
+
 h1 {
   @include headline-large;
 }
