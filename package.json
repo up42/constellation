@@ -4,7 +4,7 @@
   "description": "Constellation is the UP42 Design System based on Vue Design System",
   "main": "dist/system/system.js",
   "files": [
-    "dist/system"
+    "dist/**/*"
   ],
   "scripts": {
     "dev:app": "webpack-dev-server --inline --config ./build/webpack.dev.conf.js",
