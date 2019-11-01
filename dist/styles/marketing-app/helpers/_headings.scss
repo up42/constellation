@@ -1,0 +1,31 @@
+.headline {
+  @include headline-default;
+
+  &-large {
+    @include headline-large;
+  }
+}
+
+.heading {
+  @include heading-default;
+
+  &-medium {
+    @include heading-medium;
+  }
+
+  &-small {
+    @include heading-small;
+  }
+
+  &-small {
+    @include heading-small;
+  }
+
+  &-xsmall {
+    @include heading-xsmall;
+  }
+
+  &-overline {
+    @include heading-overline;
+  }
+}

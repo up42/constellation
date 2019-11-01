@@ -1,0 +1,7 @@
+.caption {
+  @include caption-default;
+
+  &-small {
+    @include caption-small;
+  }
+}
