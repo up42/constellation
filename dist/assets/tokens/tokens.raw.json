@@ -1539,12 +1539,26 @@
       "originalValue": "(min-width: {!device_xs})",
       "name": "media_query_xs"
     },
+    "media_query_xs_max": {
+      "category": "media-query",
+      "type": "...",
+      "value": "(max-width: 320px)",
+      "originalValue": "(max-width: {!device_xs})",
+      "name": "media_query_xs_max"
+    },
     "media_query_s": {
       "category": "media-query",
       "type": "...",
       "value": "(min-width: 768px)",
       "originalValue": "(min-width: {!device_s})",
       "name": "media_query_s"
+    },
+    "media_query_s_max": {
+      "category": "media-query",
+      "type": "...",
+      "value": "(max-width: 768px)",
+      "originalValue": "(max-width: {!device_s})",
+      "name": "media_query_s_max"
     },
     "media_query_m": {
       "category": "media-query",
@@ -1553,12 +1567,26 @@
       "originalValue": "(min-width: {!device_m})",
       "name": "media_query_m"
     },
+    "media_query_m_max": {
+      "category": "media-query",
+      "type": "...",
+      "value": "(max-width: 960px)",
+      "originalValue": "(max-width: {!device_m})",
+      "name": "media_query_m_max"
+    },
     "media_query_l": {
       "category": "media-query",
       "type": "...",
       "value": "(min-width: 1248px)",
       "originalValue": "(min-width: {!device_l})",
       "name": "media_query_l"
+    },
+    "media_query_l_max": {
+      "category": "media-query",
+      "type": "...",
+      "value": "(max-width: 1248px)",
+      "originalValue": "(max-width: {!device_l})",
+      "name": "media_query_l_max"
     },
     "radius_default": {
       "type": "number",
