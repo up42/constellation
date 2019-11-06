@@ -89,7 +89,7 @@
   font-size: $marketing-mobile-font-size-heading-overline;
   line-height: $marketing-line-height-2;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: uppercase;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-heading-overline;
