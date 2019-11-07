@@ -1,61 +1,61 @@
 @mixin headline-large {
   font-size: $marketing-mobile-font-size-headline-large;
-  line-height: $marketing-line-height-3;
+  line-height: $marketing-line-height-4;
   font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-headline-large;
-    line-height: $marketing-line-height-1;
+    line-height: $marketing-line-height-2;
   }
 }
 
 @mixin headline-default {
   font-size: $marketing-mobile-font-size-headline-default;
-  line-height: $marketing-line-height-5;
+  line-height: $marketing-line-height-6;
   font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-headline-default;
-    line-height: $marketing-line-height-0;
+    line-height: $marketing-line-height-1;
   }
 }
 
 @mixin heading-default {
   font-size: $marketing-mobile-font-size-heading-default;
-  line-height: $marketing-line-height-6;
+  line-height: $marketing-line-height-7;
   font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-heading-default;
-    line-height: $marketing-line-height-5;
+    line-height: $marketing-line-height-6;
   }
 }
 
 @mixin heading-medium {
   font-size: $marketing-mobile-font-size-heading-medium;
-  line-height: $marketing-line-height-4;
+  line-height: $marketing-line-height-5;
   font-weight: 700;
 
   @media #{$media-query-m} {
-    font-size: $marketing-mobile-font-size-heading-medium;
-    line-height: $marketing-line-height-8;
+    font-size: $marketing-desktop-font-size-heading-medium;
+    line-height: $marketing-line-height-9;
   }
 }
 
 @mixin heading-small {
   font-size: $marketing-mobile-font-size-heading-small;
-  line-height: $marketing-line-height-7;
+  line-height: $marketing-line-height-8;
   font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-heading-small;
-    line-height: $marketing-line-height-4;
+    line-height: $marketing-line-height-5;
   }
 }
 
 @mixin heading-xsmall {
   font-size: $marketing-mobile-font-size-heading-default;
-  line-height: $marketing-line-height-9;
+  line-height: $marketing-line-height-10;
   font-weight: 700;
 
   @media #{$media-query-m} {
@@ -65,29 +65,29 @@
 
 @mixin caption-default {
   font-size: $marketing-mobile-font-size-caption-default;
-  line-height: $marketing-line-height-7;
+  line-height: $marketing-line-height-8;
   font-weight: 400;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-caption-default;
-    line-height: $marketing-line-height-11;
+    line-height: $marketing-line-height-12;
   }
 }
 
 @mixin caption-small {
   font-size: $marketing-mobile-font-size-caption-small;
-  line-height: $marketing-line-height-13;
+  line-height: $marketing-line-height-14;
   font-weight: 400;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-caption-small;
-    line-height: $marketing-line-height-12;
+    line-height: $marketing-line-height-13;
   }
 }
 
 @mixin heading-overline {
   font-size: $marketing-mobile-font-size-heading-overline;
-  line-height: $marketing-line-height-2;
+  line-height: $marketing-line-height-3;
   font-weight: 700;
   text-transform: uppercase;
 
@@ -98,52 +98,67 @@
 
 @mixin body-large {
   font-size: $marketing-mobile-font-size-body-large;
-  line-height: $marketing-line-height-10;
+  line-height: $marketing-line-height-11;
   font-weight: 400;
 }
 
 @mixin body-default {
   font-size: $marketing-mobile-font-size-body-default;
-  line-height: $marketing-line-height-12;
+  line-height: $marketing-line-height-13;
   font-weight: 400;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-body-default;
-    line-height: $marketing-line-height-14;
+    line-height: $marketing-line-height-15;
   }
 }
 
 @mixin body-small {
   font-size: $marketing-mobile-font-size-body-small;
-  line-height: $marketing-line-height-13;
+  line-height: $marketing-line-height-14;
   font-weight: 400;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-body-small;
-    line-height: $marketing-line-height-12;
+    line-height: $marketing-line-height-13;
   }
 }
 
 @mixin label-default {
   font-size: $marketing-mobile-font-size-label-default;
-  line-height: $marketing-line-height-9;
+  line-height: $marketing-line-height-10;
   font-weight: 700;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-label-default;
-    line-height: $marketing-line-height-7;
+    line-height: $marketing-line-height-8;
   }
 }
 
 @mixin label-small {
   font-size: $marketing-mobile-font-size-label-small;
-  line-height: $marketing-line-height-2;
+  line-height: $marketing-line-height-3;
   font-weight: 400;
 }
 
 @mixin code-default {
   font-family: $font-family-code;
   font-size: $marketing-mobile-font-size-code-default;
-  line-height: $marketing-line-height-2;
+  line-height: $marketing-line-height-3;
   font-weight: 400;
+}
+
+@mixin nav-default {
+  font-size: $marketing-mobile-font-size-nav-default;
+  line-height: $marketing-line-height-3;
+
+  @media #{$media-query-m} {
+    font-size: $marketing-desktop-font-size-label-default;
+    line-height: $marketing-line-height-0
+  }
+}
+
+@mixin nav-small {
+  font-size: $martketing-mobile-font-size-nav-small;
+  line-height: $marketing-line-height-3;
 }

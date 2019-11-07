@@ -1,3 +1,10 @@
+// Thanks to Vue-Design-System for some of these mixins
+
+$spacing-ratio: 1.7;
+
+// Create stack-space
+//
+// @param  {Number} stack-space to set
 @mixin stack-space($value) {
   margin-bottom: $value;
 
@@ -6,12 +13,46 @@
   }
 }
 
+// Create inset-space
+//
+// @param  {Number} inset-space to set
+@mixin inset-space($value) {
+  padding: $value;
+}
+
+// Create inline-space
+//
+// @param  {Number} inline-space to set
+@mixin inline-space($value) {
+  margin-right: $value;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
 // Create inset-squish-space
 // Used for buttons, form elements, cells.
 //
 // @param  {Number} inset-squish-space to set
 @mixin inset-squish-space($value) {
-  $spacing-ratio: 1.7;
   padding: round($value / $spacing-ratio - 1px) $value
     round($value / $spacing-ratio);
+}
+
+// Create a vertically-squished inset-space
+//
+// @param  {Number} inline-space to set
+@mixin inset-vertical-squish-space($value) {
+  padding:  $value round($value / $spacing-ratio)
+    $value;
+}
+
+// Create inline-space
+//
+// @param  {Number} inline-space to set
+@mixin inline-space($value) {
+  margin-right: $value;
+  &:last-child {
+    margin-right: 0;
+  }
 }

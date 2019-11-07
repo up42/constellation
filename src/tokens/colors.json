@@ -52,7 +52,7 @@
     },
     {
       "name": "color_typography_font_default",
-      "value": "rgb({!gray_100})",
+      "value": "rgb({!gray_80})",
       "category": "typography"
     },
     {
@@ -67,17 +67,17 @@
     },
     {
       "name": "color_typography_link_default",
-      "value": "{!cyan_50}",
+      "value": "{!pink_60}",
       "category": "typography"
     },
     {
       "name": "color_typography_link_visited",
-      "value": "{!cyan_60}",
+      "value": "{!pink_70}",
       "category": "typography"
     },
     {
       "name": "color_ui_active_default",
-      "value": "{!cyan_50}",
+      "value": "{!pink_60}",
       "category": "ui"
     },
     {

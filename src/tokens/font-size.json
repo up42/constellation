@@ -60,6 +60,14 @@
       "name": "marketing_desktop_font_size_code_default",
       "value": "{!ms_major_second_-2}"
     },
+    {
+      "name": "marketing_desktop_font_size_nav_default",
+      "value": "{!ms_major_second_-1}"
+    },
+    {
+      "name": "marketing_desktop_font_size_nav_small",
+      "value": "{!ms_major_second_-2}"
+    },
 
     {
       "name": "marketing_mobile_font_size_headline_large",
@@ -119,6 +127,14 @@
     },
     {
       "name": "marketing_mobile_font_size_code_default",
+      "value": "{!ms_major_second_-2}"
+    },
+    {
+      "name": "marketing_mobile_font_size_nav_default",
+      "value": "{!ms_major_second_-2}"
+    },
+    {
+      "name": "marketing_mobile_font_size_nav_small",
       "value": "{!ms_major_second_-2}"
     }
   ],
