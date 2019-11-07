@@ -1,0 +1,42 @@
+{
+  "color": {
+    "typography": {
+      "font": {
+        "default": {"value": "{color.gray.100}"},
+        "light": {"value": "{color.gray.60}"},
+        "inverted": {"value": "{color.gray.0}"}
+      },
+      "link": {
+        "default": {"value": "{color.cyan.50}"},
+        "visited": {"value": "{color.cyan.60"}
+      }
+    },
+    "utility": {
+      "danger": {
+        "default": {"value": "{color.red.50}"}
+      },
+      "success": {
+        "default": {"value": "{color.green.30}"}
+      },
+      "info": {
+        "default": {"value": "{color.indigo.90}"}
+      }
+    },
+    "ui": {
+      "active": {
+        "default": {"value": "{color.pink.50}"}},
+      "background": {
+        "default": {"value": "{color.gray.10}"},
+        "dark": {"value": "{color.gray.20}"},
+        "darker": {"value": "{color.indigo.90}"}
+      },
+      "border": {
+        "default": {"value": "{color.gray.20}"}
+      },
+      "shadow": {
+        "default": {"value": "{color.gray.100}"}
+      }
+
+    }
+  }
+}

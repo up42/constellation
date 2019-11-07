@@ -1,0 +1,24 @@
+{
+  "color": {
+    "brand":  {
+      "dark-matter": {
+        "value": "{color.indigo.90}"
+      },
+      "titan-pink": {
+        "value": "{color.pink.60}"
+      },
+      "planet-blue": {
+        "value": "{color.cyan.50}"
+      },
+      "green-earth": {
+        "value": "{color.green.50}"
+      },
+      "primary": {
+        "value": "{color.brand.dark-matter}"
+      },
+      "secondary": {
+        "value": "{color.brand.planet-blue}"
+      }
+    }
+  }
+}
