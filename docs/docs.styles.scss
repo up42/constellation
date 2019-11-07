@@ -65,7 +65,7 @@ div[class^="rsg--wrapper"] > h1[class^="rsg--heading"],
 div[class^="rsg--wrapper"] > h2[class^="rsg--heading"] {
   display: block;
   border: 0;
-  line-height: $marketing-line-height-4;
+  line-height: $marketing-line-height-5;
   padding: $space-scale-40 $space-scale-40;
   width: calc(100% + #{$space-scale-40 * 2});
   margin: -#{$space-scale-8} -#{$space-scale-40} $space-scale-24 -#{$space-scale-40};
@@ -108,7 +108,7 @@ h2[class^="rsg--heading"] {
   padding-bottom: $space-scale-8;
   margin: $space-scale-24 0 $space-scale-16;
   font-size: $size-xl;
-  line-height: $marketing-line-height-4;
+  line-height: $marketing-line-height-5;
   font-weight: $weight-normal;
   letter-spacing: -0.5px;
   width: 100%;
@@ -146,7 +146,7 @@ h4[class^="rsg--heading"] a {
   letter-spacing: 0;
   margin: $space-scale-24 0 $space-scale-16;
   font-size: $size-l;
-  line-height: $marketing-line-height-4;
+  line-height: $marketing-line-height-5;
   color: $docs-color-heading;
 }
 
@@ -326,7 +326,7 @@ div[class^="rsg--sidebar"] {
     // Sidebar sub-list
     ul {
       padding-left: $space-scale-8;
-      line-height: $marketing-line-height-4;
+      line-height: $marketing-line-height-5;
       @media (max-width: #{$docs-breakpoint-small}) {
         padding: 0 0 0 $space-scale-24;
         width: 90%;
@@ -457,7 +457,7 @@ div[class^="rsg--tab"] {
       font-size: $size-s;
       font-weight: $weight-normal;
       font-family: $font-text;
-      line-height: $marketing-line-height-4;
+      line-height: $marketing-line-height-5;
       @include inset-squish-space($space-scale-8);
       cursor: pointer;
       background: mix($color-bleu-de-france, $color-rich-black, 50%);
