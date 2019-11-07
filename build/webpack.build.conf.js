@@ -50,11 +50,7 @@ const webpackConfig = {
         ignore: [".*"]
       },
       {
-        from: config.styles,
-        to: config.output.styles
-      },
-      {
-        from: `${config.components}/*.vue`,
+        from: `${config.components}/**/*.vue`,
         to: config.output.components
       }
     ])
