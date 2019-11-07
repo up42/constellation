@@ -430,8 +430,8 @@
       "type": "color",
       "category": "typography",
       "name": "color_typography_font_default",
-      "value": "rgb(18, 19, 21)",
-      "originalValue": "rgb({!gray_100})"
+      "value": "rgb(0, 0, 0)",
+      "originalValue": "rgb({!gray_80})"
     },
     "color_typography_font_light": {
       "type": "color",
@@ -451,22 +451,22 @@
       "type": "color",
       "category": "typography",
       "name": "color_typography_link_default",
-      "value": "rgb(32, 176, 199)",
-      "originalValue": "{!cyan_50}"
+      "value": "rgb(212, 15, 169)",
+      "originalValue": "{!pink_60}"
     },
     "color_typography_link_visited": {
       "type": "color",
       "category": "typography",
       "name": "color_typography_link_visited",
-      "value": "rgb(29, 143, 164)",
-      "originalValue": "{!cyan_60}"
+      "value": "rgb(176, 2, 124)",
+      "originalValue": "{!pink_70}"
     },
     "color_ui_active_default": {
       "type": "color",
       "category": "ui",
       "name": "color_ui_active_default",
-      "value": "rgb(32, 176, 199)",
-      "originalValue": "{!cyan_50}"
+      "value": "rgb(212, 15, 169)",
+      "originalValue": "{!pink_60}"
     },
     "color_ui_background_default": {
       "type": "color",
@@ -1636,6 +1636,27 @@
       "value": "0px 2px 2px rgba(18, 19, 21, 0.16)",
       "originalValue": "0px 2px 2px {!shadow_color}",
       "name": "shadow_short"
+    },
+    "duration_default": {
+      "type": "number",
+      "category": "time",
+      "value": "0.5s",
+      "originalValue": "0.5s",
+      "name": "duration_default"
+    },
+    "duration_fast": {
+      "type": "number",
+      "category": "time",
+      "value": "0.08s",
+      "originalValue": "0.08s",
+      "name": "duration_fast"
+    },
+    "duration_slow": {
+      "type": "number",
+      "category": "time",
+      "value": "1s",
+      "originalValue": "1s",
+      "name": "duration_slow"
     }
   }
 }
