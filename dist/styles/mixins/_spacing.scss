@@ -46,13 +46,3 @@ $spacing-ratio: 1.7;
   padding:  $value round($value / $spacing-ratio)
     $value;
 }
-
-// Create inline-space
-//
-// @param  {Number} inline-space to set
-@mixin inline-space($value) {
-  margin-right: $value;
-  &:last-child {
-    margin-right: 0;
-  }
-}
