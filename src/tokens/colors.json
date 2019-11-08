@@ -105,6 +105,11 @@
       "value": "rgb({!gray_100})",
       "category": "ui"
     },
+    {
+      "name": "color_ui_nav_default",
+      "value": "{!gray_80}",
+      "category": "ui"
+    },
 
     {
       "name": "color_indigo_0",
