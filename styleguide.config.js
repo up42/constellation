@@ -38,6 +38,19 @@ module.exports = {
       usageMode: "hide"
     },
     {
+      name: "Design Tokens",
+      content: "docs/tokens.md",
+      sectionDepth: 1,
+      exampleMode: "hide",
+      usageMode: "hide",
+      components: () => [
+        "docs/components/Color.vue",
+        "docs/components/FontSize.vue",
+        "docs/components/Spacing.vue",
+        "docs/components/All.vue",
+      ],
+    },
+    {
       name: "UI Components",
       components: "src/components/**/[A-Z]*.vue",
       content: "docs/elements.md",

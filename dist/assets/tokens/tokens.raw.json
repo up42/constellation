@@ -503,6 +503,13 @@
       "value": "rgb(18, 19, 21)",
       "originalValue": "rgb({!gray_100})"
     },
+    "color_ui_nav_default": {
+      "type": "color",
+      "category": "ui",
+      "name": "color_ui_nav_default",
+      "value": "rgb(60, 62, 66)",
+      "originalValue": "{!gray_80}"
+    },
     "color_indigo_0": {
       "type": "color",
       "category": "indigo",
