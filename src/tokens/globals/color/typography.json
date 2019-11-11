@@ -1,0 +1,28 @@
+{
+  "color": {
+    "typography": {
+      "font": {
+        "default": {
+          "value": "{color.gray.80}"
+        },
+        "light": {
+          "value": "{color.gray.60}"
+        },
+        "inverted": {
+          "value": "{color.gray.0}"
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{color.accent.default}"
+        },
+        "hover": {
+          "value": "{color.accent.light}"
+        },
+        "visited": {
+          "value": "{color.accent.dark}"
+        }
+      }
+    }
+  }
+}

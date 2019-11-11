@@ -1,0 +1,32 @@
+{
+  "color": {
+    "ui": {
+      "active": {
+        "default": {
+          "value": "{color.accent.default}"
+        }
+      },
+      "background": {
+        "default": {
+          "value": "{color.gray.10}"
+        },
+        "dark": {
+          "value": "{color.gray.20}"
+        },
+        "darker": {
+          "value": "{color.indigo.90}"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.gray.20}"
+        }
+      },
+      "shadow": {
+        "default": {
+          "value": "{color.gray.100}"
+        }
+      }
+    }
+  }
+}

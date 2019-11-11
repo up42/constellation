@@ -1,0 +1,9 @@
+{
+  "font": {
+    "family": {
+      "heading": { "value": "'Roboto Condensed', sans-serif"},
+      "text": {"value": "'Source Sans Pro', sans-serif"},
+      "code": {"value": "'Source Code Pro', monospace"}
+    }
+  }
+}

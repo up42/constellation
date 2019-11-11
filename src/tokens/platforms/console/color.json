@@ -1,0 +1,15 @@
+{
+  "color": {
+    "utility": {
+      "danger": {
+        "default": {"value": "{color.red.50}"}
+      },
+      "success": {
+        "default": {"value": "{color.green.30}"}
+      },
+      "info": {
+        "default": {"value": "{color.indigo.90}"}
+      }
+    }
+  }
+}

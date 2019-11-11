@@ -1,0 +1,15 @@
+{
+  "color": {
+    "accent": {
+      "default": {
+        "value": "{color.brand.titan-pink}"
+      },
+      "light": {
+        "value": "{color.pink.50}"
+      },
+      "dark": {
+        "value": "{color.pink.70}"
+      }
+    }
+  }
+}

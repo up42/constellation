@@ -12,12 +12,22 @@
       },
       "green-earth": {
         "value": "{color.green.50}"
-      },
-      "primary": {
+      }
+    },
+    "primary": {
+      "default": {
         "value": "{color.brand.dark-matter}"
-      },
-      "secondary": {
+      }
+    },
+    "accent": {
+      "default": {
         "value": "{color.brand.planet-blue}"
+      },
+      "light": {
+        "value": "{color.brand.cyan-40}"
+      },
+      "dark": {
+        "value": "{color.brand.cyan-60}"
       }
     }
   }
