@@ -1,0 +1,15 @@
+{
+  "ui": {
+    "border-radius": {
+      "default": {
+        "value": "6px"
+      },
+      "small": {
+        "value": "4px"
+      },
+      "circle": {
+        "value": "50%"
+      }
+    }
+  }
+}

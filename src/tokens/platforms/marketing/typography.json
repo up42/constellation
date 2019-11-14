@@ -90,6 +90,14 @@
         "mobile": {
           "value": "{font.scale.major-second.-2}"
         }
+      },
+      "xsmall": {
+        "desktop": {
+          "value": "{font.scale.major-second.-2}"
+        },
+        "mobile": {
+          "value": "{font.scale.major-second.-2}"
+        }
       }
     },
     "body": {

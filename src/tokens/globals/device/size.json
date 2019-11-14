@@ -1,0 +1,18 @@
+{
+  "device": {
+    "size": {
+      "xs": {
+        "value": "320px"
+      },
+      "s": {
+        "value": "768px"
+      },
+      "m": {
+        "value": "960px"
+      },
+      "l": {
+        "value": "1248px"
+      }
+    }
+  }
+}

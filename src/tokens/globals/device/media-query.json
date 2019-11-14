@@ -1,0 +1,38 @@
+{
+  "device": {
+    "media-query": {
+      "xs": {
+        "min": {
+          "value": "(min-width: {device.size.xs})"
+        },
+        "max": {
+          "value": "(max-width: {device.size.xs})"
+        }
+      },
+      "s": {
+        "min": {
+          "value": "(min-width: {device.size.s})"
+        },
+        "max": {
+          "value": "(max-width: {device.size.s})"
+        }
+      },
+      "m": {
+        "min": {
+          "value": "(min-width: {device.size.m})"
+        },
+        "max": {
+          "value": "(max-width: {device.size.m})"
+        }
+      },
+      "l": { 
+        "min": {
+          "value": "(min-width: {device.size.l})"
+        },
+        "max": {
+          "value": "(max-width: {device.size.l})"
+        }
+      }
+    }
+  }
+}

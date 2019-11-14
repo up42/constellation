@@ -10,6 +10,19 @@
       "dark": {
         "value": "{color.pink.70}"
       }
+    },
+    "ui": {
+      "background": {
+        "default": {
+          "value": "{color.grey.0}"
+        },
+        "light": {
+          "value": "{color.indigo.0}"
+        },
+        "dark": {
+          "value": "{color.indigo.90}"
+        }
+      }
     }
   }
 }
