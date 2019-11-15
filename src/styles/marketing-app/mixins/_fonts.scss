@@ -54,12 +54,12 @@
 }
 
 @mixin heading-xsmall {
-  font-size: $marketing-mobile-font-size-heading-default;
+  font-size: $marketing-mobile-font-size-heading-xsmall;
   line-height: $marketing-line-height-10;
   font-weight: 700;
 
   @media #{$media-query-m} {
-    font-size: $marketing-desktop-font-size-heading-default;
+    font-size: $marketing-desktop-font-size-heading-xsmall;
   }
 }
 
@@ -83,6 +83,12 @@
     font-size: $marketing-desktop-font-size-caption-small;
     line-height: $marketing-line-height-13;
   }
+}
+
+@mixin caption-xsmall {
+  font-size: $marketing-mobile-font-size-caption-xsmall;
+  line-height: $marketing-line-height-3;
+  font-weight: 400;
 }
 
 @mixin heading-overline {

@@ -8,8 +8,12 @@
 // fonts configuration
 @import "../styles/marketing-app/fonts/inter/inter.css";
 
+// variables
+@import "../styles/marketing-app/variables";
+
 // mixins
 @import "../styles/marketing-app/mixins/fonts";
+@import "../styles/marketing-app/mixins/layout";
 
 // base definitions
 @import "../styles/marketing-app/base";
