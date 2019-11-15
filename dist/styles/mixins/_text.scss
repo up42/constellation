@@ -1,0 +1,46 @@
+// Text manipulation mixins
+
+// Truncates a multi-line text.
+// Falls back to fade-out when multiline ellipsis doesn't work.
+// 
+// @param {Number} $lines the number of lines after which truncation will happen
+// @param {Number} $mobile-font-size font-size for small devices
+// @param {Number} $mobile-line-height unitless line-height for small devices
+// @param {Number} $desktop-font-size font-size for large devices
+// @param {Number} $desktop-line-height unitless line-height for large devices
+@mixin truncate-text($lines, $mobile-font-size, $mobile-line-height, $desktop-font-size, $desktop-line-height) {
+  position: relative;
+  overflow: hidden;
+  height: $mobile-font-size * $mobile-line-height * $lines;
+
+  @media #{$media-query-m} {
+    height: $desktop-font-size * $desktop-line-height * $lines;
+  }
+
+  &::after {
+    content: '';
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: $mobile-font-size * $mobile-line-height;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+
+    @media #{$media-query-m} {
+      height: $desktop-font-size * $desktop-line-height;
+    }
+  }
+
+  @supports (display: -webkit-box) {
+    text-overflow: ellipsis;
+    height: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    &::after {
+      display: none;
+    }
+  }
+}

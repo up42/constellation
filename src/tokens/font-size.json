@@ -33,6 +33,10 @@
       "value": "{!ms_major_second_-1}"
     },
     {
+      "name": "marketing_desktop_font_size_caption_xsmall",
+      "value": "{!ms_major_second_-2}"
+    },
+    {
       "name": "marketing_desktop_font_size_heading_overline",
       "value": "{!ms_major_second_-2}"
     },
@@ -99,6 +103,10 @@
     },
     {
       "name": "marketing_mobile_font_size_caption_small",
+      "value": "{!ms_major_second_-2}"
+    },
+    {
+      "name": "marketing_mobile_font_size_caption_xsmall",
       "value": "{!ms_major_second_-2}"
     },
     {
