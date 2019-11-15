@@ -1,0 +1,12 @@
+// Layout mixins
+
+// Creates a separator
+//
+// @param {String} $position can be either "top" or "bottom", defaults to "top"
+@mixin separator($position: "top") {
+  @if $position == "top" {
+    border-top: $separator;
+  } @else {
+    border-bottom: $separator;
+  }
+}
