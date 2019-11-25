@@ -61,6 +61,10 @@
       "value": "{!ms_major_second_-2}"
     },
     {
+      "name": "marketing_desktop_font_size_label_xsmall",
+      "value": "{!ms_major_second_-3}"
+    },
+    {
       "name": "marketing_desktop_font_size_code_default",
       "value": "{!ms_major_second_-2}"
     },
@@ -132,6 +136,10 @@
     {
       "name": "marketing_mobile_font_size_label_small",
       "value": "{!ms_major_second_-2}"
+    },
+    {
+      "name": "marketing_mobile_font_size_label_xsmall",
+      "value": "{!ms_major_second_-3}"
     },
     {
       "name": "marketing_mobile_font_size_code_default",
