@@ -148,8 +148,9 @@
 }
 
 @mixin label-xsmall {
-  font-size: $font-size-label-xsmall;
+  font-size: $marketing-mobile-font-size-label-xsmall;
   line-height: $marketing-line-height-7-1;
+  font-weight: 400;
 }
 
 @mixin code-default {
