@@ -1112,6 +1112,13 @@
       "value": "0.889rem",
       "originalValue": "{!ms_major_second_-2}"
     },
+    "marketing_desktop_font_size_label_xsmall": {
+      "type": "number",
+      "category": "font-size",
+      "name": "marketing_desktop_font_size_label_xsmall",
+      "value": "0.79rem",
+      "originalValue": "{!ms_major_second_-3}"
+    },
     "marketing_desktop_font_size_code_default": {
       "type": "number",
       "category": "font-size",
@@ -1238,6 +1245,13 @@
       "value": "0.889rem",
       "originalValue": "{!ms_major_second_-2}"
     },
+    "marketing_mobile_font_size_label_xsmall": {
+      "type": "number",
+      "category": "font-size",
+      "name": "marketing_mobile_font_size_label_xsmall",
+      "value": "0.79rem",
+      "originalValue": "{!ms_major_second_-3}"
+    },
     "marketing_mobile_font_size_code_default": {
       "type": "number",
       "category": "font-size",
@@ -1258,6 +1272,13 @@
       "name": "marketing_mobile_font_size_nav_small",
       "value": "0.889rem",
       "originalValue": "{!ms_major_second_-2}"
+    },
+    "marketing_line_height_7_1": {
+      "type": "number",
+      "category": "line-height",
+      "value": "1.265",
+      "originalValue": "1.265",
+      "name": "marketing_line_height_7_1"
     },
     "marketing_line_height_10": {
       "type": "number",
