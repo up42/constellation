@@ -1,7 +1,7 @@
 @mixin headline-large {
   font-size: $marketing-mobile-font-size-headline-large;
   line-height: $marketing-line-height-4;
-  font-weight: 700;
+  font-weight: 900;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-headline-large;
@@ -12,7 +12,7 @@
 @mixin headline-default {
   font-size: $marketing-mobile-font-size-headline-default;
   line-height: $marketing-line-height-6;
-  font-weight: 700;
+  font-weight: 900;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-headline-default;
@@ -23,7 +23,7 @@
 @mixin heading-default {
   font-size: $marketing-mobile-font-size-heading-default;
   line-height: $marketing-line-height-7;
-  font-weight: 700;
+  font-weight: 900;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-heading-default;
@@ -56,7 +56,7 @@
 @mixin heading-xsmall {
   font-size: $marketing-mobile-font-size-heading-xsmall;
   line-height: $marketing-line-height-10;
-  font-weight: 700;
+  font-weight: 800;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-heading-xsmall;
