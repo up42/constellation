@@ -163,6 +163,7 @@
 @mixin nav-default {
   font-size: $marketing-mobile-font-size-nav-default;
   line-height: $marketing-line-height-3;
+  font-weight: 500;
 
   @media #{$media-query-m} {
     font-size: $marketing-desktop-font-size-nav-default;
