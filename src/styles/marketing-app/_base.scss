@@ -9,6 +9,8 @@ html {
 body {
   @include body-default;
   color: $color-typography-font-default;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 ul {
